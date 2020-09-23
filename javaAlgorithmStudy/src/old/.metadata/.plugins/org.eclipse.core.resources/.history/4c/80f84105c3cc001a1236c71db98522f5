@@ -1,0 +1,39 @@
+package 피보나치수열;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println(solution(10));
+	}
+
+	public static int solution(int n) {
+		int answer = 0;
+		
+		int fst = 0;
+		int sec = 0;
+		int temp = 1;
+		
+		fst = temp;
+		answer = fst+sec;
+		
+		temp = answer;
+		fst = temp;
+		sec = temp - fst;
+		
+		answer = fst+sec;
+		
+		fst = temp;
+		answer = fst+sec;
+		
+		temp = answer;
+		fst = temp;
+		sec = temp - fst;
+		
+		answer = fst+sec;
+		
+		
+		
+		return answer;
+	}
+}

@@ -1,0 +1,16 @@
+package 피보나치수열;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+	public static int solution() {
+		int answer = 0;
+		
+		
+		return answer;
+	}
+}

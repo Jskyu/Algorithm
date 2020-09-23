@@ -1,0 +1,33 @@
+package 피보나치수열;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		solution(10);
+	}
+
+	public static List<Integer> solution(int n) {
+		List<Integer> answer = new ArrayList<>();
+		
+		int fst = 1;
+		int sec = 1;
+		int temp = 1;
+		
+		answer.add(fst);
+		answer.add(sec);
+		
+		answer.add(fst+sec);
+		fst += sec;
+		answer.add(fst+sec);
+		sec += fst;
+		answer.add(fst+sec);
+		
+		
+		
+		return answer;
+	}
+}
