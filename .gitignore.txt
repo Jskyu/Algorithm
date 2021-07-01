@@ -11,4 +11,5 @@
 /javaAlgorithm/out
 /javaAlgorithm/.idea
 /javaAlgorithm/Algorithm.iml
-.out
+/javaAlgorithmStudy/.idea
+/out
