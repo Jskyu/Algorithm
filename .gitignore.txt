@@ -9,7 +9,6 @@
 /httpRequests/
 
 /javaAlgorithm/out
-/javaAlgorithm/.idea
-/javaAlgorithm/Algorithm.iml
 /javaAlgorithmStudy/.idea
+/javaAlgorithmStudy/Algorithm.iml
 /out
