@@ -1,4 +1,9 @@
+### IntelliJ IDEA ###
 .idea
+*.iws
+*.iml
+*.ipr
+
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -8,7 +13,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
-/javaAlgorithm/out
-/javaAlgorithmStudy/.idea
-/javaAlgorithmStudy/Algorithm.iml
-/out
+javaAlgorithm/out/
+javaAlgorithmStudy/.idea/
+javaAlgorithmStudy/Algorithm.iml
+out/
