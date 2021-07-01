@@ -8,5 +8,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
-/javaAlgorithmStudy/out
-/javaAlgorithmStudy/.idea
+/javaAlgorithm/out
+/javaAlgorithm/.idea
+/javaAlgorithm/Algorithm.iml
+.out
